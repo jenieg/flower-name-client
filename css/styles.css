@@ -1,15 +1,27 @@
 body {
     font-family: 'Inter', sans-serif;
+    background-image: url(../images/floral-bg.jpg);
 }
 
-header {
+main {
+    margin: 0 auto;
+    width: 80dvw;
+    height: 60dvh;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.header {
     text-align: center;
+    margin-top: 5rem;
+    padding-top: 2.5rem;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 2.5rem;
+    align-items: center;
+    padding-top: 1rem;
 }
 
 .side-container {
