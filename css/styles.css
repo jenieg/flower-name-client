@@ -46,6 +46,15 @@ main {
     object-fit: cover;
 }
 
+select {
+    font: inherit;
+    
+    padding: 2px;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    border-radius: .25rem;
+    background-color: #fff;
+}
+
 
 /** hide img before search **/
 .hidden{
