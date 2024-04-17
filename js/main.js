@@ -1,12 +1,13 @@
 //Clear Input Field on Page Reload
 window.onload = function() {
-    document.querySelector('input[type="text"]').value = ''
+    document.querySelector('#month-select').value = 'default'
 };
 
 
-document.querySelector('button').addEventListener('click', apiRequest)
+document.querySelector('#month-select').addEventListener('change', apiRequest)
+
 async function apiRequest(){
-    const flowerName = document.querySelector('input').value
+    const flowerName = document.querySelector('#month-select').value
     try {
         const response = await fetch(`https://hilarious-pantyhose-fish.cyclic.app/api/${flowerName}`)
         const data = await response.json()
