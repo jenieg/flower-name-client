@@ -6,7 +6,7 @@ body {
 main {
     margin: 0 auto;
     max-width: 80dvw;
-    height: 80dvh;
+    /* height: 80dvh; */
     background-color: #fff;
     border-radius: 1rem;
 }
@@ -14,10 +14,11 @@ main {
 .selection {
     text-align: center;
     margin-top: 5rem;
-    padding-top: 2.5rem;
+    padding: 2.5rem 1rem 0 1rem;
 }
 
 .container {
+    padding-bottom: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
