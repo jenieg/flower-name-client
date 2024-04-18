@@ -6,7 +6,6 @@ body {
 main {
     margin: 0 auto;
     max-width: 80dvw;
-    /* height: 80dvh; */
     background-color: #fff;
     border-radius: 1rem;
 }
@@ -21,7 +20,7 @@ main {
     padding-bottom: 3rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-top: 1rem;
 }

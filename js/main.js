@@ -16,7 +16,7 @@ async function apiRequest(){
         imgContainer.classList.remove('hidden');
         document.querySelector('img').src = data.image
         document.querySelector('#flowerName').innerText = 'Name: ' + data.flower
-        document.querySelector('#botName').innerText = 'Botonaical Name: ' + data.botanicalname
+        document.querySelector('#botName').innerText = 'Botanical Name: ' + data.botanicalname
         document.querySelector('#symbolism').innerText = 'Symbolizes: ' + data.symbolism
     }
     catch(error) {
